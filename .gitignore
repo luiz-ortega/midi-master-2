@@ -39,3 +39,24 @@
 
 # debug information files
 *.dwo
+
+# Build directories and files
+build/
+cmake_admin/
+.cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+Makefile
+_CPack_Packages/
+
+# Project-specific executables
+MidiMaster2
